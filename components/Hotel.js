@@ -3,6 +3,7 @@ import React from "react";
 import { hotels } from "../data";
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
+import { useSelector } from "react-redux";
 
 const Hotel = () => {
   const route = useRouter();
